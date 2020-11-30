@@ -1,0 +1,136 @@
+/*Initial*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+/*MAIN*/
+html {
+    font-size: 62.5%;
+  }
+
+  body{
+      font-family:'Montserrat', sans-serif;
+      background: linear-gradient(to right, #000, #000 50%, rgba(7, 7, 7, 0.116) 75%, rgba(19, 18, 18, 0.171) 75%), url('fireball.jpg');
+      background-size: cover;
+      
+  }
+
+  section{
+      max-width:1170px;
+      width:100%;
+      height: 100vh;
+      margin:0 auto;
+     
+
+  }
+
+  .main{
+      height:100%;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .intro-section{
+      flex-basis:80%;
+     text-align: center;
+  }
+
+  .intro-section img{
+      width: 100%;
+  }
+
+  .sign-section{
+      flex-basis:70%;
+      background-color: transparent;
+      color:#fab95b;
+  }
+  .sign-block{
+      padding:10%;
+  }
+
+  .sign-heading{
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      text-align: center;
+      text-transform: uppercase;
+      
+  }
+
+  .input-block{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .input{
+      width:71%;
+      height:4rem;
+      padding-left:4rem ;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4rem;
+      border-top: transparent;
+      border-right: transparent;
+      border-bottom: 1px solid   #98979E;
+      outline: none;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0.5px 1px 3px rgb(104, 104, 104) ;
+      
+}
+
+.input:focus::placeholder {
+	opacity: .5;
+}
+::placeholder{
+    transition:.3s ease;
+    -webkit-transition:.3s ease;
+    -moz-transition:.3s ease;
+    -ms-transition:.3s ease;
+    -o-transition:.3s ease;
+}
+
+.password-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem  0rem 3rem 6.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"]  {
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;}
+ label span{
+    color:#fff;
+}
+.sign-button{
+       background-color: #fab95b;
+       width:38%;
+       height: 4rem;
+       display: inline-block;
+       margin-left: 6.5rem;
+       border: #000;
+       border-radius:3px;
+       box-shadow: 0.5px 1px 3px rgb(104, 104, 104) ;
+       font-family: 'Montserrat', sans-serif;
+	   font-size: 1.5rem;
+       text-transform: uppercase;
+       font-weight: 600;
+       outline: none;
+	   cursor: pointer;
+       
+}
